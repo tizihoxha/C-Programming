@@ -13,10 +13,12 @@ int is_prime(int n)
 	for (i = 2; i <= m; i++)
 	{
 		if (n % i == 0)
+		{
 			flag = 1;
 			break;
+		}
 	}
-		return (flag);
+	return (flag);
 }
 int main()
 {
