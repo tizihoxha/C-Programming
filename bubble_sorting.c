@@ -1,10 +1,10 @@
 #include "c_programming.h"
 
 /**
- *
- *
- *
- *
+ * bubble_sort - Function that sorts the elements of an array using bbble sort
+ * @temps: elements
+ * @n: the number of elements in the array
+ * Return: sorted array
  */
 void bubble_sort(int *temps, int n)
 {
