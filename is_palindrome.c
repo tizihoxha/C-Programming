@@ -1,10 +1,9 @@
 #include "c_programming.h"
 
 /**
- *
- *
- *
- *
+ * is_palindrome - Function that checks if a given string is palindrome
+ * @text: string to bbe checked
+ * Return: flag
  */
 int is_palindrome(char * text)
 {
