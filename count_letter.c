@@ -1,9 +1,10 @@
 #include "c_programming.h"
 
 /**
- *
- *
- *
+ * count_letter - Function that counts the letters in a string
+ * @text: pointer to the string
+ * @n: letter
+ * Return: count
  */
 int count_letter(char * text, char n)
 {
