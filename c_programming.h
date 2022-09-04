@@ -13,5 +13,5 @@ int count_letter(char * text);
 int is_palindrome(char * text);
 void temp_info(int * temps);
 int recursive_factorial(int n);
-
+int _strlen(char *s);
 #endif
