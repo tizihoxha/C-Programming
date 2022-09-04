@@ -20,15 +20,11 @@ int main()
     int a, b, c;
     printf("Enter three numbers: \na: ");
     scanf("%d", &a);
-    printf("b: ");
+    printf("\nb: ");
     scanf("%d", &b);
-    printf("c: ");
+    printf("\nc: ");
     scanf("%d", &c);
-    if (a > b && a > c)
-        printf("Biggest number is %d\n", a);
-    if (b > a && b > c)
-        printf("Biggest number is %d\n", b);
-    if (c > a && c > b)
-        printf("Biggest number is %d\n", c);
+   
+        printf("Biggest number is %d\n", largest_three(a, b, c));
     return 0;
 }
