@@ -6,5 +6,5 @@
 #include <string.h>
 
 int largest_three(int a, int b, int c);
-
+int is_prime(int n);
 #endif
