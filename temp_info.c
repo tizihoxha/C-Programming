@@ -1,10 +1,9 @@
 #include "c_programming.h"
 
 /**
- *
- *
- *
- *
+ * temp_info - Function that finds the lowest, highest and the amplitude of temp
+ * @temp: the temperatures, given elements
+ * Return: hottest,coldest & amplitude
  */
 void temp_info(int * temps)
 {
