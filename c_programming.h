@@ -12,6 +12,7 @@ char * reverse(char * text);
 int count_letter(char * text, char n);
 int is_palindrome(char * text);
 void temp_info(int * temps);
+void bubble_sort(int *temps, int n);
 int recursive_factorial(int n);
 int _strlen(char *s);
 #endif
