@@ -14,5 +14,6 @@ int is_palindrome(char * text);
 void temp_info(int * temps);
 void bubble_sort(int *temps, int n);
 int recursive_factorial(int n);
+int linear_search(int *array, int size, int value);
 int _strlen(char *s);
 #endif
