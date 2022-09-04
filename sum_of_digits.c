@@ -1,10 +1,9 @@
 #include "c_programming.h"
 
 /**
- *
- *
- *
- *
+ * sum_of_digits - Function tha counts the um of digits
+ * @n: digits
+ * Return: sum
  */
 int sum_of_digits(int n)
 {
