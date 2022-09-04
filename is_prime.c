@@ -16,8 +16,7 @@ int is_prime(int n)
 			flag = 1;
 			break;
 	}
-	if (flag == 0)
-		return (0);
+		return (flag);
 }
 int main()
 {
@@ -26,9 +25,9 @@ int main()
 	scanf("%d",&n);
 	flag = is_prime(n);
 
-		if (flag == 0)
-			printf("%i Number is prime\n", n);
-		else if (flag != 0)
-			printf("%i Number is prime\n", n);
-	return 0;
+	if (flag == 1)
+		printf("%i Number is not prime\n", n);
+	else
+		printf("%i Number is prime\n", n);
+	return (0);
 }
