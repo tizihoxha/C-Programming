@@ -9,7 +9,7 @@ int largest_three(int a, int b, int c);
 int is_prime(int n);
 int sum_of_digits(int n);
 char * reverse(char * text);
-int count_letter(char * text);
+int count_letter(char * text, char n);
 int is_palindrome(char * text);
 void temp_info(int * temps);
 int recursive_factorial(int n);
